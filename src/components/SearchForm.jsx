@@ -33,41 +33,61 @@ class SearchForm extends Component {
     suggestions: [],
   };
 
+  componentDidMount() {
+    document.addEventListener("click", this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("click", this.handleClickOutside);
+  }
+
+  handleClickOutside = (e) => {
+    if (!e.target.closest(".search-box")) {
+      this.setState({ suggestions: [] });
+    }
+  };
+
   handleSearch = () => {
     const { selectedGenre, query } = this.state;
+
+    // prevent empty search
+    if (!query.trim()) {
+      this.setState({ suggestions: [] });
+      return;
+    }
 
     const subSet =
       selectedGenre === "All Genres"
         ? Object.values(allBooks).flat()
         : allBooks[selectedGenre];
 
-    const filteredSet = subSet.filter((book) =>
-      book.title.toLowerCase().includes(query.toLowerCase()),
-    );
+    const filteredSet = subSet
+      .filter((book) => book.title.toLowerCase().includes(query.toLowerCase()))
+      .slice(0, 8); // limit results
 
     this.setState({ suggestions: filteredSet });
   };
 
   render() {
     const { selectedGenre, query, suggestions } = this.state;
+
     return (
       <div className="bg-black py-5 px-3 mx-5 my-3 rounded-3">
         <h2 className="text-white mx-5 mb-3">Browse by title</h2>
-        <div style={{ position: "relative", width: "50%" }} className="mx-5">
+
+        <div
+          className="mx-5 search-box"
+          style={{ position: "relative", width: "50%" }}
+        >
           <Form className="d-flex">
             <Dropdown>
               <Dropdown.Toggle
                 variant="black"
                 className="text-black bg-light me-2"
-                id="dropdown-basic"
-                onClick={() => {
-                  this.setState({
-                    suggestions: [],
-                  });
-                }}
               >
                 {selectedGenre}
               </Dropdown.Toggle>
+
               <Dropdown.Menu>
                 {genres.map((genre) => (
                   <Dropdown.Item
@@ -77,7 +97,10 @@ class SearchForm extends Component {
                         genre === "All Genres" ? "2px solid lightgrey" : "none",
                     }}
                     onClick={() =>
-                      this.setState({ selectedGenre: genre, suggestions: [] })
+                      this.setState({
+                        selectedGenre: genre,
+                        suggestions: [],
+                      })
                     }
                   >
                     {genre}
@@ -90,12 +113,13 @@ class SearchForm extends Component {
               type="search"
               placeholder="Search"
               className="me-2"
-              aria-label="Search"
               value={query}
-              onChange={(e) =>
-                this.setState({ query: e.target.value, suggestions: [] })
-              }
+              onChange={(e) => {
+                const value = e.target.value;
+                this.setState({ query: value }, this.handleSearch);
+              }}
             />
+
             <Button variant="success" onClick={this.handleSearch}>
               Search
             </Button>
@@ -110,7 +134,7 @@ class SearchForm extends Component {
                 right: 0,
                 background: "white",
                 border: "1px solid #ccc",
-                borderRadius: "5px 0 0 5px",
+                borderRadius: "5px",
                 zIndex: 1000,
                 maxHeight: "300px",
                 overflowY: "auto",
@@ -128,6 +152,12 @@ class SearchForm extends Component {
                     alignItems: "center",
                     gap: "10px",
                   }}
+                  onClick={() =>
+                    this.setState({
+                      query: book.title,
+                      suggestions: [],
+                    })
+                  }
                   onMouseEnter={(e) =>
                     (e.currentTarget.style.background = "#f5f5f5")
                   }
@@ -144,6 +174,7 @@ class SearchForm extends Component {
                       objectFit: "cover",
                     }}
                   />
+
                   <div>
                     <div style={{ fontWeight: "bold", fontSize: "14px" }}>
                       {book.title}

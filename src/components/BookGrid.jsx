@@ -52,7 +52,6 @@ class BookCard extends Component {
             className="book-title"
             style={{
               height: "60px",
-              overflow: "hidden",
               fontSize: "16px",
               cursor: "pointer",
               display: readPlot ? "none" : "inline-block",
@@ -78,7 +77,7 @@ class BookCard extends Component {
 
           <div className="d-flex justify-content-center no-wrap mx-0 mt-3">
             <Button
-              variant="success"
+              variant={addToCart ? "danger" : "success"}
               className="btn-sm me-1"
               onClick={() => {
                 this.setState({ addToCart: !addToCart });
