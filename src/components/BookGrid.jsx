@@ -18,15 +18,18 @@ const genres = [
 ];
 
 class BookCard extends Component {
+  // ✅ removed isSelected and selectedBook — they come from props now
   state = {
-    isSelected: false,
     readPlot: false,
     addToCart: false,
   };
+
   render() {
-    const { book } = this.props;
-    const { isSelected, addToCart, readPlot } = this.state;
+    // ✅ isSelected and onToggleSelect come from props, not state
+    const { book, isSelected, onToggleSelect } = this.props;
+    const { addToCart, readPlot } = this.state;
     const plot = "This is a fake plot text intended for demonstration purposes";
+
     return (
       <Card
         style={{
@@ -38,14 +41,8 @@ class BookCard extends Component {
         <Card.Img
           variant="top"
           src={book.img}
-          style={{
-            height: "200px",
-            objectFit: "cover",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            this.setState({ isSelected: !isSelected });
-          }}
+          style={{ height: "200px", objectFit: "cover", cursor: "pointer" }}
+          onClick={() => onToggleSelect(book)} // ✅ calls App's updater
         />
         <Card.Body className="d-flex flex-column justify-content-between">
           <Card.Title
@@ -56,9 +53,7 @@ class BookCard extends Component {
               cursor: "pointer",
               display: readPlot ? "none" : "inline-block",
             }}
-            onClick={() => {
-              this.setState({ isSelected: !isSelected });
-            }}
+            onClick={() => onToggleSelect(book)} // ✅ calls App's updater
           >
             {book.title}
           </Card.Title>
@@ -74,24 +69,20 @@ class BookCard extends Component {
           >
             {book.price + "$"}
           </Card.Text>
-
-          <div className="d-flex justify-content-center no-wrap mx-0 mt-3">
+          <div className="text-centered d-flex align-items-center justify-content-center flex-wrap mx-0 mt-3">
             <Button
+              fluid
               variant={addToCart ? "danger" : "success"}
-              className="btn-sm me-1"
-              onClick={() => {
-                this.setState({ addToCart: !addToCart });
-              }}
+              className="btn-sm mx-1 mb-1"
+              onClick={() => this.setState({ addToCart: !addToCart })}
             >
               {addToCart ? "Remove" : "Add to cart"}
             </Button>
-
             <Button
+              fluid
               variant="secondary"
-              className="btn-sm ms-1"
-              onClick={() => {
-                this.setState({ readPlot: !readPlot });
-              }}
+              className="btn-sm mx-1 mb-1"
+              onClick={() => this.setState({ readPlot: !readPlot })}
             >
               {readPlot ? "Close" : "Read Plot"}
             </Button>
@@ -104,19 +95,19 @@ class BookCard extends Component {
 
 const getId = (name) => name.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 
-function Grid() {
+function Grid({ selectedBook, onToggleSelect }) {
   return (
-    <Container fluid className="px-5">
+    <Container className="px-4">
       {genres.map((genre) => (
         <div key={genre.name}>
           <h1
             id={`${getId(genre.name)}-section`}
-            className="text-white mb-4 mt-5"
+            className="text-white mb-4 mt-4"
           >
             {genre.name}
           </h1>
           <Row className="g-3 mb-5">
-            {genre.data.map((book) => (
+            {genre.data.slice(0, 20).map((book) => (
               <Col
                 className="mb-3"
                 key={book.asin}
@@ -126,7 +117,11 @@ function Grid() {
                 lg={3}
                 xl={2}
               >
-                <BookCard book={book} />
+                <BookCard
+                  book={book}
+                  isSelected={selectedBook?.asin === book.asin}
+                  onToggleSelect={onToggleSelect}
+                />
               </Col>
             ))}
           </Row>

@@ -72,14 +72,14 @@ class SearchForm extends Component {
     const { selectedGenre, query, suggestions } = this.state;
 
     return (
-      <div className="bg-black py-5 px-3 mx-5 my-3 rounded-3">
+      <div className="bg-black py-4 px-2 mx-4 my-3 rounded-3 d-flex flex-column">
         <h2 className="text-white mx-5 mb-3">Browse by title</h2>
 
         <div
           className="mx-5 search-box"
           style={{ position: "relative", width: "50%" }}
         >
-          <Form className="d-flex">
+          <Form className="d-flex flex-column flex-sm-row">
             <Dropdown>
               <Dropdown.Toggle
                 variant="black"

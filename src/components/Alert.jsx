@@ -8,12 +8,12 @@ function WelcomeAlert() {
 
   return (
     <Alert
-      className="mx-5"
+      className="mx-4 my-5"
       variant="success"
       dismissible
       onClose={() => setShow(false)}
     >
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
+      <Alert.Heading>Hey, nice to see you!</Alert.Heading>
       <p>
         Welcome to this book library. Browse our books by category and find our
         best deals!

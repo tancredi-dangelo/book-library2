@@ -1,143 +1,282 @@
-[
-  {
+[{
     "asin": "0316438960",
     "title": "The Last Wish: Introducing the Witcher",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51eHtkVLL5L.jpg",
     "price": 9.59,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "dragonreader92", "review": "Absolutely loved it, Geralt is iconic.", "rating": 9 },
+      { "user": "bookworm_kate", "review": "Great short stories, easy to get into.", "rating": 8 },
+      { "user": "witcher_fan01", "review": "Better than the show honestly.", "rating": 10 },
+      { "user": "nightowl_reads", "review": "A bit slow at first but worth it.", "rating": 7 },
+      { "user": "fantasylover", "review": "Classic fantasy, highly recommend.", "rating": 9 }
+    ]
   },
   {
     "asin": "0316389706",
     "title": "Sword of Destiny (The Witcher)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91uxJwnolDL.jpg",
     "price": 10.39,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "ciri_simp", "review": "Ciri's introduction is perfect.", "rating": 10 },
+      { "user": "pageturner_99", "review": "Even better than the first book.", "rating": 9 },
+      { "user": "loremaster_x", "review": "Rich world building throughout.", "rating": 8 },
+      { "user": "elvish_reader", "review": "Some stories felt a bit rushed.", "rating": 6 },
+      { "user": "grumpyreviewer", "review": "Good but not great.", "rating": 7 }
+    ]
   },
   {
     "asin": "0786966246",
-    "title": "D&D MORDENKAINEN'S TOME OF FOES (Dungeons & Dragons)",
+    "title": "D&D MORDENKAINEN'S TOME OF FOES",
     "img": "https://images-na.ssl-images-amazon.com/images/I/8147MOLG%2BoL.jpg",
     "price": 27.94,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "dungeon_master42", "review": "Essential for any DM, great lore.", "rating": 10 },
+      { "user": "roll_for_init", "review": "Loved the deep dives into factions.", "rating": 9 },
+      { "user": "criticalroller", "review": "Solid addition to any D&D collection.", "rating": 8 },
+      { "user": "tabletop_nerd", "review": "Some sections feel repetitive.", "rating": 6 },
+      { "user": "natural20fan", "review": "Beautiful artwork inside.", "rating": 9 }
+    ]
   },
   {
     "asin": "1945683694",
     "title": "Destiny Grimoire Anthology, Volume II: Fallen Kingdoms",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91IHwcEy2DL.jpg",
     "price": 19.92,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "guardian_light", "review": "Perfect for any Destiny fan.", "rating": 9 },
+      { "user": "exotic_hunter", "review": "Lore is deep and fascinating.", "rating": 8 },
+      { "user": "warlock_main", "review": "Beautifully written and illustrated.", "rating": 10 },
+      { "user": "casual_gamer77", "review": "Hard to follow without game knowledge.", "rating": 5 },
+      { "user": "grimoire_nerd", "review": "Worth every penny.", "rating": 9 }
+    ]
   },
   {
     "asin": "0786966254",
-    "title": "D&D Waterdeep Dragon Heist HC (Dungeons & Dragons)",
+    "title": "D&D Waterdeep Dragon Heist HC",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81Sfnxpke4L.jpg",
     "price": 34.61,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "cityofwonders", "review": "Waterdeep is brought to life perfectly.", "rating": 9 },
+      { "user": "heist_master", "review": "Creative adventure, my players loved it.", "rating": 10 },
+      { "user": "rpg_forever", "review": "Great for urban campaigns.", "rating": 8 },
+      { "user": "rulebook_reader", "review": "A bit linear for my taste.", "rating": 6 },
+      { "user": "dice_goblin", "review": "Fantastic production quality.", "rating": 9 }
+    ]
   },
   {
     "asin": "0062059882",
-    "title": "American Gods: The Tenth Anniversary Edition: A Novel",
+    "title": "American Gods: The Tenth Anniversary Edition",
     "img": "https://images-na.ssl-images-amazon.com/images/I/519mwdpzlmL.jpg",
     "price": 14.94,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "gaiman_devotee", "review": "A masterpiece, pure and simple.", "rating": 10 },
+      { "user": "mythology_buff", "review": "Fascinating take on old gods.", "rating": 9 },
+      { "user": "slow_burn_fan", "review": "Slow start but an incredible payoff.", "rating": 8 },
+      { "user": "literary_snob", "review": "Overrated in my opinion.", "rating": 5 },
+      { "user": "roadtrip_reads", "review": "The atmosphere is unmatched.", "rating": 9 }
+    ]
   },
   {
     "asin": "0345535413",
-    "title": "A Clash of Kings (HBO Tie-in Edition): A Song of Ice and Fire: Book Two",
+    "title": "A Clash of Kings",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91Pqmk8FzAL.jpg",
     "price": 14.31,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "ironthrone_fan", "review": "Even better than the first.", "rating": 10 },
+      { "user": "westeros_nerd", "review": "So many characters but all compelling.", "rating": 9 },
+      { "user": "got_reader", "review": "Tyrion chapters are the best.", "rating": 9 },
+      { "user": "fantasy_casual", "review": "A bit too long in places.", "rating": 6 },
+      { "user": "red_viper99", "review": "Martin is a genius.", "rating": 10 }
+    ]
   },
   {
     "asin": "0140157379",
     "title": "Haroun and the Sea of Stories",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91R8tRi2KTL.jpg",
     "price": 11.4,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "rushdie_fan", "review": "Magical and whimsical, loved it.", "rating": 9 },
+      { "user": "kidlit_adult", "review": "Perfect for all ages.", "rating": 8 },
+      { "user": "story_ocean", "review": "Beautiful allegory about storytelling.", "rating": 10 },
+      { "user": "quick_reader", "review": "Short but very impactful.", "rating": 8 },
+      { "user": "world_traveler", "review": "Felt like a dream.", "rating": 7 }
+    ]
   },
   {
     "asin": "0553808044",
-    "title": "A Game of Thrones: The Illustrated Edition: A Song of Ice and Fire: Book One",
+    "title": "A Game of Thrones: The Illustrated Edition",
     "img": "https://images-na.ssl-images-amazon.com/images/I/A12tbaSby%2BL.jpg",
     "price": 28.06,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "stark_loyalist", "review": "The illustrations add so much.", "rating": 10 },
+      { "user": "lannister_gold", "review": "Worth buying again just for the art.", "rating": 9 },
+      { "user": "reread_king", "review": "Even better on a second read.", "rating": 10 },
+      { "user": "budget_reader", "review": "Pricey but beautiful.", "rating": 7 },
+      { "user": "hbo_convert", "review": "So much better than the show.", "rating": 9 }
+    ]
   },
   {
     "asin": "0316228028",
     "title": "Stiletto: A Novel (The Rook Files)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51whAHbBsDL.jpg",
     "price": 10.37,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "spy_fi_reader", "review": "Clever blend of spy thriller and fantasy.", "rating": 8 },
+      { "user": "rook_fan", "review": "Loved returning to this world.", "rating": 9 },
+      { "user": "genre_bender", "review": "Unique and very entertaining.", "rating": 8 },
+      { "user": "series_hopper", "review": "Read the first one before this.", "rating": 6 },
+      { "user": "binge_reader", "review": "Finished it in one sitting.", "rating": 9 }
+    ]
   },
   {
     "asin": "0008288798",
     "title": "A Reaper at the Gates (Ember Quartet, Book 3)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91vFU0KCm9L.jpg",
     "price": 12.6,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "ember_fan", "review": "The tension just keeps building.", "rating": 9 },
+      { "user": "laia_stans", "review": "Emotionally devastating in the best way.", "rating": 10 },
+      { "user": "ya_adult", "review": "YA that punches way above its weight.", "rating": 8 },
+      { "user": "cliffhanger_hate", "review": "That ending! How dare she.", "rating": 7 },
+      { "user": "series_tracker", "review": "Best book in the series so far.", "rating": 9 }
+    ]
   },
   {
     "asin": "1250222060",
-    "title": "A Gathering of Shadows Collector's Edition: A Novel (Shades of Magic)",
+    "title": "A Gathering of Shadows Collector's Edition",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81Jw33fmYzL.jpg",
     "price": 18.85,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "shades_collector", "review": "The collector's edition is gorgeous.", "rating": 10 },
+      { "user": "kell_fan", "review": "The magic tournament arc is so fun.", "rating": 9 },
+      { "user": "multiverse_nerd", "review": "Love the parallel Londons concept.", "rating": 9 },
+      { "user": "vex_reader", "review": "Lila is my favourite character ever.", "rating": 10 },
+      { "user": "casual_fantasy", "review": "Good but felt a bit filler-ish.", "rating": 6 }
+    ]
   },
   {
     "asin": "0345548531",
     "title": "Staked: The Iron Druid Chronicles, Book Eight",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91eMFXdhM0L.jpg",
     "price": 7.59,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "druid_life", "review": "Atticus never gets old.", "rating": 8 },
+      { "user": "oberon_lover", "review": "Oberon the dog steals every scene.", "rating": 10 },
+      { "user": "urban_fantasy_q", "review": "Fast paced and very fun.", "rating": 8 },
+      { "user": "longtime_fan", "review": "Series is still going strong.", "rating": 7 },
+      { "user": "mythology_mix", "review": "Great use of world mythologies.", "rating": 9 }
+    ]
   },
   {
     "asin": "1597808709",
     "title": "A Second Chance: The Chronicles of St. Mary's Book Three",
     "img": "https://images-na.ssl-images-amazon.com/images/I/714wSBJshRL.jpg",
     "price": 9.86,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "time_traveler_x", "review": "History meets humour perfectly.", "rating": 8 },
+      { "user": "st_marys_fan", "review": "Max is such a great protagonist.", "rating": 9 },
+      { "user": "cozy_reader", "review": "Light and entertaining.", "rating": 7 },
+      { "user": "historian_geek", "review": "Love the historical settings.", "rating": 8 },
+      { "user": "series_addict", "review": "Keeps getting better each book.", "rating": 9 }
+    ]
   },
   {
     "asin": "0062678108",
     "title": "The City of Brass: A Novel (The Daevabad Trilogy)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51AiOrm56BL.jpg",
     "price": 18.37,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "djinn_reader", "review": "Rich Middle Eastern mythology, stunning.", "rating": 10 },
+      { "user": "nahri_fan", "review": "Nahri is such a compelling lead.", "rating": 9 },
+      { "user": "brass_city", "review": "The world feels so real and alive.", "rating": 10 },
+      { "user": "slow_start_ok", "review": "Takes a while to get going.", "rating": 6 },
+      { "user": "epic_fantasy_q", "review": "One of the best debuts I've read.", "rating": 9 }
+    ]
   },
   {
     "asin": "0316434604",
     "title": "Strange Practice (A Dr. Greta Helsing Novel)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/61WMUVR7PWL.jpg",
     "price": 12.67,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "monster_doc", "review": "Charming and witty, loved Greta.", "rating": 9 },
+      { "user": "cozy_gothic", "review": "Perfect autumn read.", "rating": 8 },
+      { "user": "vampire_fan99", "review": "A fresh take on classic monsters.", "rating": 9 },
+      { "user": "london_lover", "review": "London setting is wonderfully gloomy.", "rating": 8 },
+      { "user": "quick_finish", "review": "Wish it was longer.", "rating": 7 }
+    ]
   },
   {
     "asin": "0765319233",
     "title": "Chronicles of the Black Company",
     "img": "https://images-na.ssl-images-amazon.com/images/I/511RvCsDsTL.jpg",
     "price": 17.94,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "grimdark_fan", "review": "Gritty and raw, exactly what I wanted.", "rating": 9 },
+      { "user": "soldier_reader", "review": "Military fantasy done right.", "rating": 10 },
+      { "user": "old_school_sf", "review": "A classic that holds up.", "rating": 8 },
+      { "user": "dark_fantasy_x", "review": "Not for the faint of heart.", "rating": 7 },
+      { "user": "cook_fan", "review": "Glen Cook is underrated.", "rating": 9 }
+    ]
   },
   {
     "asin": "0345461533",
-    "title": "The Conquering Sword of Conan (Conan of Cimmeria, Book 3)",
+    "title": "The Conquering Sword of Conan",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81MoomxPd3L.jpg",
     "price": 17.79,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "conan_classic", "review": "Howard's writing is electrifying.", "rating": 9 },
+      { "user": "pulp_fiction_fan", "review": "Old school adventure at its best.", "rating": 8 },
+      { "user": "sword_sorcery", "review": "The action scenes are incredible.", "rating": 9 },
+      { "user": "modern_reader", "review": "Dated in places but still thrilling.", "rating": 6 },
+      { "user": "barbarian_fan", "review": "Conan is the ultimate fantasy hero.", "rating": 10 }
+    ]
   },
   {
     "asin": "0316452211",
     "title": "The Night Angel Trilogy: 10th Anniversary Edition",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71vON1PofOL.jpg",
     "price": 30.28,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "azoth_fan", "review": "One of the darkest and best trilogies.", "rating": 10 },
+      { "user": "brent_weeks_q", "review": "Weeks writes action like nobody else.", "rating": 9 },
+      { "user": "assassin_arc", "review": "The character growth is phenomenal.", "rating": 10 },
+      { "user": "thick_books", "review": "Great value for three books in one.", "rating": 8 },
+      { "user": "grimdark_lover", "review": "Brutal but deeply emotional.", "rating": 9 }
+    ]
   },
   {
     "asin": "1943407355",
     "title": "The Dark Truth (The Dark Passage Series) (Volume 1)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51pm0mSSzwL.jpg",
     "price": 1.77,
-    "category": "fantasy"
+    "category": "fantasy",
+    "reviews": [
+      { "user": "indie_fan", "review": "Surprisingly good for an indie book.", "rating": 7 },
+      { "user": "budget_books", "review": "Great value at this price.", "rating": 8 },
+      { "user": "dark_passage_q", "review": "Intriguing premise, kept me hooked.", "rating": 7 },
+      { "user": "new_author_fan", "review": "Rough around the edges but promising.", "rating": 6 },
+      { "user": "series_starter", "review": "Will definitely read the next one.", "rating": 7 }
+    ]
   },
   {
     "asin": "1524799556",

@@ -4,140 +4,280 @@
     "title": "Justice on Trial: The Kavanaugh Confirmation and the Future of the Supreme Court",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71WdFQNYSJL.jpg",
     "price": 17.39,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "userA1", "review": "Very insightful and detailed.", "rating": 8 },
+      { "username": "booklover92", "review": "A bit biased but interesting.", "rating": 7 },
+      { "username": "historybuff", "review": "Good political context.", "rating": 9 },
+      { "username": "readerX", "review": "Too long in parts.", "rating": 6 },
+      { "username": "AnnaK", "review": "Well researched and engaging.", "rating": 8 }
+    ]
   },
   {
     "asin": "0307742482",
     "title": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81qxqy2R%2BmL.jpg",
     "price": 12.71,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "mike23", "review": "Gripping and emotional.", "rating": 9 },
+      { "username": "sarah_reads", "review": "Hard to put down.", "rating": 10 },
+      { "username": "bookworm", "review": "Very well written.", "rating": 9 },
+      { "username": "johnD", "review": "Dark but important history.", "rating": 8 },
+      { "username": "lisa_p", "review": "A masterpiece.", "rating": 10 }
+    ]
   },
   {
     "asin": "0525512179",
     "title": "21 Lessons for the 21st Century",
     "img": "https://images-na.ssl-images-amazon.com/images/I/811iZOA9%2B8L.jpg",
     "price": 14.9,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "techguy", "review": "Thought-provoking.", "rating": 9 },
+      { "username": "anna88", "review": "Makes you reflect a lot.", "rating": 8 },
+      { "username": "reader1", "review": "A bit dense.", "rating": 7 },
+      { "username": "philosophyfan", "review": "Very relevant topics.", "rating": 9 },
+      { "username": "tommy", "review": "Good but repetitive.", "rating": 6 }
+    ]
   },
   {
     "asin": "0307476073",
     "title": "Wild: From Lost to Found on the Pacific Crest Trail",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81WNVAgspxL.jpg",
     "price": 10.27,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "hiker99", "review": "Inspiring journey.", "rating": 10 },
+      { "username": "claire", "review": "Very emotional.", "rating": 9 },
+      { "username": "daniel", "review": "Loved the storytelling.", "rating": 9 },
+      { "username": "emmaR", "review": "A bit slow at times.", "rating": 7 },
+      { "username": "trailfan", "review": "Great survival story.", "rating": 9 }
+    ]
   },
   {
     "asin": "0385349947",
     "title": "Lean In: Women, Work, and the Will to Lead",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81coZ37EmxL.jpg",
     "price": 14.3,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "careergal", "review": "Very empowering.", "rating": 9 },
+      { "username": "markT", "review": "Interesting perspective.", "rating": 8 },
+      { "username": "lucy", "review": "Some good advice.", "rating": 7 },
+      { "username": "annaB", "review": "Motivational read.", "rating": 9 },
+      { "username": "reader77", "review": "Not for everyone.", "rating": 6 }
+    ]
   },
   {
     "asin": "0062363603",
     "title": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71O3WN6oyzL.jpg",
     "price": 9.75,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "spacefan", "review": "Amazing story.", "rating": 10 },
+      { "username": "kelly", "review": "Very inspiring.", "rating": 9 },
+      { "username": "john_s", "review": "Educational and moving.", "rating": 9 },
+      { "username": "nina", "review": "Loved it.", "rating": 10 },
+      { "username": "mark99", "review": "Great historical insight.", "rating": 8 }
+    ]
   },
   {
     "asin": "1476794146",
     "title": "Five Presidents: My Extraordinary Journey with Eisenhower, Kennedy, Johnson, Nixon, and Ford",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81XDguZCJgL.jpg",
     "price": 7.78,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "politicsfan", "review": "Fascinating insights.", "rating": 9 },
+      { "username": "reader2", "review": "Very detailed.", "rating": 8 },
+      { "username": "historygeek", "review": "Great memoir.", "rating": 9 },
+      { "username": "alex", "review": "A bit dry.", "rating": 6 },
+      { "username": "sophie", "review": "Informative read.", "rating": 8 }
+    ]
   },
   {
     "asin": "0393635244",
     "title": "These Truths: A History of the United States",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91NZ5Cw-4TL.jpg",
     "price": 29.27,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "us_history", "review": "Comprehensive.", "rating": 9 },
+      { "username": "readerX1", "review": "Very long but good.", "rating": 8 },
+      { "username": "emma", "review": "Detailed analysis.", "rating": 9 },
+      { "username": "dan", "review": "A bit heavy.", "rating": 7 },
+      { "username": "kate", "review": "Great overview.", "rating": 8 }
+    ]
   },
   {
     "asin": "0316067601",
     "title": "Lone Survivor: The Eyewitness Account of Operation Redwing and the Lost Heroes of SEAL Team 10",
     "img": "https://images-na.ssl-images-amazon.com/images/I/411nhI-kPYL.jpg",
     "price": 9.86,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "navysealfan", "review": "Intense and real.", "rating": 10 },
+      { "username": "matt", "review": "Very emotional.", "rating": 9 },
+      { "username": "jake", "review": "Hard to read at times.", "rating": 8 },
+      { "username": "sarahK", "review": "Powerful story.", "rating": 9 },
+      { "username": "rob", "review": "Excellent memoir.", "rating": 10 }
+    ]
   },
   {
     "asin": "0743270754",
     "title": "Team of Rivals: The Political Genius of Abraham Lincoln",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51bpOR8qigL.jpg",
     "price": 13.14,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "lincolnfan", "review": "Excellent biography.", "rating": 10 },
+      { "username": "historybuff2", "review": "Very detailed.", "rating": 9 },
+      { "username": "chris", "review": "Long but worth it.", "rating": 9 },
+      { "username": "annaL", "review": "Great storytelling.", "rating": 10 },
+      { "username": "paul", "review": "Informative.", "rating": 8 }
+    ]
   },
   {
     "asin": "1455566675",
     "title": "The Plaza: The Secret Life of America's Most Famous Hotel",
     "img": "https://images-na.ssl-images-amazon.com/images/I/41v0b001ouL.jpg",
     "price": 17.1,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "hotelbuff", "review": "Interesting history.", "rating": 8 },
+      { "username": "linda", "review": "Very descriptive.", "rating": 7 },
+      { "username": "markT2", "review": "Enjoyable read.", "rating": 8 },
+      { "username": "sophia", "review": "A bit slow.", "rating": 6 },
+      { "username": "george", "review": "Good storytelling.", "rating": 8 }
+    ]
   },
   {
     "asin": "0385534248",
     "title": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81XMxzljGaL.jpg",
     "price": 16.29,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "readerA", "review": "Same great story.", "rating": 9 },
+      { "username": "bookfan", "review": "Brilliant writing.", "rating": 10 },
+      { "username": "tom", "review": "Very engaging.", "rating": 9 },
+      { "username": "lisa2", "review": "Powerful narrative.", "rating": 10 },
+      { "username": "danielX", "review": "Excellent.", "rating": 9 }
+    ]
   },
   {
     "asin": "1933782048",
     "title": "This Fleeting World: A Short History of Humanity (AP World History & Teachers' Edition)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81dMjTpUMnL.jpg",
     "price": 14.11,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "teacher1", "review": "Great for students.", "rating": 9 },
+      { "username": "historykid", "review": "Very educational.", "rating": 8 },
+      { "username": "profA", "review": "Concise and clear.", "rating": 9 },
+      { "username": "student99", "review": "Helpful summary.", "rating": 8 },
+      { "username": "readerB", "review": "Good overview.", "rating": 8 }
+    ]
   },
   {
     "asin": "0316743003",
     "title": "Skunk Works: A Personal Memoir of My Years at Lockheed",
     "img": "https://images-na.ssl-images-amazon.com/images/I/514RGQ3bURL.jpg",
     "price": 12.74,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "aviationfan", "review": "Fascinating tech history.", "rating": 9 },
+      { "username": "pilotguy", "review": "Very detailed.", "rating": 8 },
+      { "username": "engineer1", "review": "Great insights.", "rating": 9 },
+      { "username": "alexK", "review": "A bit technical.", "rating": 7 },
+      { "username": "markA", "review": "Interesting read.", "rating": 8 }
+    ]
   },
   {
     "asin": "0316202304",
     "title": "Area 51: An Uncensored History of America's Top Secret Military Base",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71QPBFYW0eL.jpg",
     "price": 11.59,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "ufofan", "review": "Very intriguing.", "rating": 9 },
+      { "username": "nick", "review": "Fun conspiracy history.", "rating": 8 },
+      { "username": "saraX", "review": "Interesting but speculative.", "rating": 7 },
+      { "username": "danielR", "review": "Good read.", "rating": 8 },
+      { "username": "luke", "review": "Entertaining.", "rating": 8 }
+    ]
   },
   {
     "asin": "1977052304",
     "title": "Helmet for My Pillow: From Parris Island to the Pacific",
     "img": "https://images-na.ssl-images-amazon.com/images/I/511sLO4dtwL.jpg",
     "price": 5.66,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "marine1", "review": "Very realistic.", "rating": 10 },
+      { "username": "johnM", "review": "Strong storytelling.", "rating": 9 },
+      { "username": "alexP", "review": "Emotional war memoir.", "rating": 9 },
+      { "username": "readerZ", "review": "Hard but good.", "rating": 8 },
+      { "username": "sam", "review": "Excellent.", "rating": 10 }
+    ]
   },
   {
     "asin": "1465475850",
     "title": "History of the World Map by Map",
     "img": "https://images-na.ssl-images-amazon.com/images/I/811X5Rx5atL.jpg",
     "price": 42.28,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "maplover", "review": "Beautiful visuals.", "rating": 10 },
+      { "username": "geoNerd", "review": "Very informative.", "rating": 9 },
+      { "username": "lucas", "review": "Great reference book.", "rating": 9 },
+      { "username": "emmaW", "review": "A bit pricey.", "rating": 8 },
+      { "username": "oliver", "review": "Excellent maps.", "rating": 10 }
+    ]
   },
   {
     "asin": "1627790640",
     "title": "Killing England: The Brutal Struggle for American Independence (Bill O'Reilly's Killing Series)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91g9OsxMUUL.jpg",
     "price": 16.67,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "historyfan", "review": "Engaging narrative.", "rating": 8 },
+      { "username": "readerC", "review": "Good overview.", "rating": 7 },
+      { "username": "markH", "review": "Interesting but biased.", "rating": 6 },
+      { "username": "susan", "review": "Readable history.", "rating": 8 },
+      { "username": "tomR", "review": "Decent book.", "rating": 7 }
+    ]
   },
   {
     "asin": "1938895223",
     "title": "The Know Your Bill of Rights Book: Don't Lose Your Constitutional Rights--Learn Them!",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51aBg4cHcUL.jpg",
     "price": 11.87,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "lawstudent", "review": "Very educational.", "rating": 9 },
+      { "username": "civicfan", "review": "Important read.", "rating": 8 },
+      { "username": "annaP", "review": "Clear explanations.", "rating": 9 },
+      { "username": "mikeB", "review": "Useful book.", "rating": 8 },
+      { "username": "readerD", "review": "Basic but good.", "rating": 7 }
+    ]
   },
   {
     "asin": "1401309615",
     "title": "The Match: The Day the Game of Golf Changed Forever",
     "img": "https://images-na.ssl-images-amazon.com/images/I/612U3Iex2bL.jpg",
     "price": 6.86,
-    "category": "history"
+    "category": "history",
+    "reviews": [
+      { "username": "golffan", "review": "Fun sports history.", "rating": 8 },
+      { "username": "tomG", "review": "Enjoyable read.", "rating": 7 },
+      { "username": "lucyM", "review": "Interesting story.", "rating": 8 },
+      { "username": "jack", "review": "Good pacing.", "rating": 7 },
+      { "username": "harry", "review": "Nice book.", "rating": 8 }
+    ]
   },
   {
     "asin": "019516895X",

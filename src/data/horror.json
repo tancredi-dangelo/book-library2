@@ -4,140 +4,280 @@
     "title": "The Silent Corner: A Novel of Suspense (Jane Hawk)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91dDIYze1wL.jpg",
     "price": 7.92,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "darkreader1", "review": "Very suspenseful and gripping.", "rating": 9 },
+      { "username": "mike_h", "review": "Keeps you on edge.", "rating": 8 },
+      { "username": "saraK", "review": "Good pacing and tension.", "rating": 8 },
+      { "username": "bookworm77", "review": "A bit predictable.", "rating": 6 },
+      { "username": "alexR", "review": "Enjoyable thriller.", "rating": 8 }
+    ]
   },
   {
     "asin": "0735218994",
     "title": "Celtic Empire (Dirk Pitt Adventure)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91xI4GjM7jL.jpg",
     "price": 17.32,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "adventurefan", "review": "Fast-paced and fun.", "rating": 8 },
+      { "username": "johnD", "review": "Classic adventure style.", "rating": 7 },
+      { "username": "lisaM", "review": "Entertaining read.", "rating": 8 },
+      { "username": "nick", "review": "Not very scary.", "rating": 6 },
+      { "username": "paulT", "review": "Good but formulaic.", "rating": 7 }
+    ]
   },
   {
     "asin": "0316334758",
     "title": "The Girl With All the Gifts",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51an6r%2B508L.jpg",
     "price": 6.89,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "zombiefan", "review": "Amazing concept.", "rating": 10 },
+      { "username": "emmaR", "review": "Very original.", "rating": 9 },
+      { "username": "booklover", "review": "Dark and emotional.", "rating": 9 },
+      { "username": "tommy", "review": "Great storytelling.", "rating": 8 },
+      { "username": "lukeS", "review": "Loved it.", "rating": 10 }
+    ]
   },
   {
     "asin": "1455586625",
     "title": "End Game (Will Robie Series)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/516ykejOh0L.jpg",
     "price": 8.77,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "thrillerfan", "review": "Very intense.", "rating": 8 },
+      { "username": "mattB", "review": "Solid action story.", "rating": 7 },
+      { "username": "sophia", "review": "Fast and engaging.", "rating": 8 },
+      { "username": "dan", "review": "A bit cliché.", "rating": 6 },
+      { "username": "kateR", "review": "Enjoyable read.", "rating": 7 }
+    ]
   },
   {
     "asin": "0316405345",
     "title": "Invisible",
     "img": "https://images-na.ssl-images-amazon.com/images/I/61rnkCg2iYL.jpg",
     "price": 25.48,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "ghostreader", "review": "Creepy atmosphere.", "rating": 9 },
+      { "username": "annaP", "review": "Very dark story.", "rating": 8 },
+      { "username": "mikeL", "review": "Interesting idea.", "rating": 7 },
+      { "username": "jess", "review": "A bit confusing.", "rating": 6 },
+      { "username": "robX", "review": "Good suspense.", "rating": 8 }
+    ]
   },
   {
     "asin": "0525542264",
     "title": "The Lost Ones (A Quinn Colson Novel)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/61ZJTk%2BkoGL.jpg",
     "price": 6.79,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "reader1", "review": "Gripping story.", "rating": 8 },
+      { "username": "tomH", "review": "Well written.", "rating": 7 },
+      { "username": "lisaK", "review": "Good suspense.", "rating": 8 },
+      { "username": "daniel", "review": "A bit slow.", "rating": 6 },
+      { "username": "kateM", "review": "Enjoyed it.", "rating": 7 }
+    ]
   },
   {
     "asin": "1455559822",
     "title": "Memory Man (Amos Decker)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81sIePWJQwL.jpg",
     "price": 13.99,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "detectivefan", "review": "Great mystery.", "rating": 9 },
+      { "username": "johnS", "review": "Very engaging.", "rating": 8 },
+      { "username": "emmaW", "review": "Solid thriller.", "rating": 8 },
+      { "username": "mikeZ", "review": "Predictable ending.", "rating": 6 },
+      { "username": "sarahT", "review": "Enjoyable read.", "rating": 8 }
+    ]
   },
   {
     "asin": "1455586609",
     "title": "End Game (Will Robie Series)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/515wWsW%2BWkL.jpg",
     "price": 15.8,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "actionfan", "review": "Very fast-paced.", "rating": 8 },
+      { "username": "nickB", "review": "Good but repetitive.", "rating": 6 },
+      { "username": "sophie", "review": "Enjoyable.", "rating": 7 },
+      { "username": "alexK", "review": "Solid read.", "rating": 8 },
+      { "username": "luke", "review": "Entertaining.", "rating": 7 }
+    ]
   },
   {
     "asin": "006113922X",
     "title": "Florida Roadkill: A Novel (Serge Storms)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51Xg-CTAszL.jpg",
     "price": 13.52,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "darkhumor", "review": "Weird but fun.", "rating": 7 },
+      { "username": "mattP", "review": "Unique style.", "rating": 8 },
+      { "username": "janeR", "review": "Confusing at times.", "rating": 6 },
+      { "username": "tomS", "review": "Entertaining chaos.", "rating": 8 },
+      { "username": "lisaB", "review": "Interesting read.", "rating": 7 }
+    ]
   },
   {
     "asin": "0062381652",
     "title": "The Bone Labyrinth: A Sigma Force Novel (Sigma Force Novels)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51SxxMdEk8L.jpg",
     "price": 6.54,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "sciencefan", "review": "Great mix of science and action.", "rating": 8 },
+      { "username": "danielR", "review": "Interesting plot.", "rating": 7 },
+      { "username": "emmaK", "review": "Good pacing.", "rating": 8 },
+      { "username": "mikeH", "review": "A bit complex.", "rating": 7 },
+      { "username": "saraL", "review": "Enjoyable.", "rating": 8 }
+    ]
   },
   {
     "asin": "0399575545",
     "title": "The Romanov Ransom (A Sam and Remi Fargo Adventure)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/914x%2Buf40qL.jpg",
     "price": 18.34,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "historythrill", "review": "Exciting adventure.", "rating": 8 },
+      { "username": "alexM", "review": "Fun read.", "rating": 7 },
+      { "username": "kateP", "review": "Good pacing.", "rating": 8 },
+      { "username": "johnL", "review": "Predictable.", "rating": 6 },
+      { "username": "lisaG", "review": "Enjoyed it.", "rating": 7 }
+    ]
   },
   {
     "asin": "0345548531",
     "title": "Staked: The Iron Druid Chronicles, Book Eight",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91eMFXdhM0L.jpg",
     "price": 7.59,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "fantasyfan", "review": "Great series finale.", "rating": 9 },
+      { "username": "mikeZ", "review": "Very entertaining.", "rating": 8 },
+      { "username": "sarahB", "review": "Fun read.", "rating": 8 },
+      { "username": "tomK", "review": "Good ending.", "rating": 7 },
+      { "username": "emmaJ", "review": "Enjoyed it.", "rating": 8 }
+    ]
   },
   {
     "asin": "156975599X",
     "title": "Patriots: A Novel of Survival in the Coming Collapse",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51REczj2RJL.jpg",
     "price": 14.0,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "prepper1", "review": "Very intense scenario.", "rating": 8 },
+      { "username": "johnD", "review": "Interesting concept.", "rating": 7 },
+      { "username": "mikeT", "review": "A bit extreme.", "rating": 6 },
+      { "username": "saraK", "review": "Thought-provoking.", "rating": 8 },
+      { "username": "alexP", "review": "Good read.", "rating": 7 }
+    ]
   },
   {
     "asin": "0735219257",
     "title": "A Delicate Touch (A Stone Barrington Novel)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91FAwkAWvRL.jpg",
     "price": 14.94,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "thrillerfan2", "review": "Smooth storytelling.", "rating": 7 },
+      { "username": "lisaH", "review": "Entertaining.", "rating": 8 },
+      { "username": "mikeB", "review": "Good but simple.", "rating": 6 },
+      { "username": "sophieR", "review": "Enjoyed it.", "rating": 7 },
+      { "username": "dan", "review": "Decent read.", "rating": 7 }
+    ]
   },
   {
     "asin": "1597808709",
     "title": "A Second Chance: The Chronicles of St. Mary's Book Three",
     "img": "https://images-na.ssl-images-amazon.com/images/I/714wSBJshRL.jpg",
     "price": 9.86,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "timefan", "review": "Fun time travel.", "rating": 8 },
+      { "username": "annaS", "review": "Creative plot.", "rating": 9 },
+      { "username": "mikeL", "review": "Very enjoyable.", "rating": 8 },
+      { "username": "kateT", "review": "A bit confusing.", "rating": 7 },
+      { "username": "johnR", "review": "Good read.", "rating": 8 }
+    ]
   },
   {
     "asin": "0804178801",
     "title": "Night School",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51nRytR2rbL.jpg",
     "price": 13.25,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "darkreader", "review": "Creepy atmosphere.", "rating": 8 },
+      { "username": "mattK", "review": "Good suspense.", "rating": 7 },
+      { "username": "sarahP", "review": "Enjoyable.", "rating": 8 },
+      { "username": "alexT", "review": "A bit slow.", "rating": 6 },
+      { "username": "lukeM", "review": "Solid thriller.", "rating": 8 }
+    ]
   },
   {
     "asin": "1730921825",
     "title": "Crime and Punishment",
     "img": "https://images-na.ssl-images-amazon.com/images/I/413%2BcSdz6bL.jpg",
     "price": 8.16,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "classicfan", "review": "Masterpiece.", "rating": 10 },
+      { "username": "readerX", "review": "Heavy but amazing.", "rating": 9 },
+      { "username": "annaL", "review": "Deep and psychological.", "rating": 10 },
+      { "username": "mikeS", "review": "Difficult read.", "rating": 8 },
+      { "username": "johnP", "review": "Worth it.", "rating": 9 }
+    ]
   },
   {
     "asin": "0735215251",
     "title": "The Pharaoh's Secret (The NUMA Files)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71EOFkXiVxL.jpg",
     "price": 6.79,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "adventureX", "review": "Fun action story.", "rating": 8 },
+      { "username": "mikeB", "review": "Good pacing.", "rating": 7 },
+      { "username": "saraM", "review": "Enjoyable.", "rating": 8 },
+      { "username": "tomR", "review": "Predictable.", "rating": 6 },
+      { "username": "lisaP", "review": "Nice read.", "rating": 7 }
+    ]
   },
   {
     "asin": "039957557X",
     "title": "Typhoon Fury (The Oregon Files)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/A1ErB7w4WML.jpg",
     "price": 20.68,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "actionfan", "review": "Explosive story.", "rating": 8 },
+      { "username": "nickT", "review": "Fast paced.", "rating": 8 },
+      { "username": "emmaR", "review": "Fun read.", "rating": 7 },
+      { "username": "alexK", "review": "Good but simple.", "rating": 7 },
+      { "username": "danL", "review": "Enjoyed it.", "rating": 8 }
+    ]
   },
   {
     "asin": "0062687883",
     "title": "Awakened: A Novel",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51t7p2JzyJL.jpg",
     "price": 15.64,
-    "category": "horror"
+    "category": "horror",
+    "reviews": [
+      { "username": "darkfan", "review": "Creepy and engaging.", "rating": 9 },
+      { "username": "mikeH", "review": "Good atmosphere.", "rating": 8 },
+      { "username": "saraK", "review": "Interesting plot.", "rating": 8 },
+      { "username": "johnM", "review": "A bit slow.", "rating": 7 },
+      { "username": "lisaT", "review": "Enjoyed it.", "rating": 8 }
+    ]
   },
   {
     "asin": "1492354252",
