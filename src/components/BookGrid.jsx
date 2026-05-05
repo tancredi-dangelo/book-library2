@@ -7,7 +7,7 @@ import horror from "../data/horror.json";
 import scifi from "../data/scifi.json";
 import romance from "../data/romance.json";
 import history from "../data/history.json";
-import { Component } from "react";
+import { Component, useState } from "react";
 
 const genres = [
   { name: "Fantasy", data: fantasy },
@@ -17,79 +17,70 @@ const genres = [
   { name: "History", data: history },
 ];
 
-class BookCard extends Component {
-  state = {
-    readPlot: false,
-    addToCart: false,
-  };
+const BookCard = ({ book, isSelected, onToggleSelect }) => {
+  const [readPlot, setReadPlot] = useState(false);
+  const [addToCart, setAddToCart] = useState(false);
+  const plot = "This is a fake plot text intended for demonstration purposes";
 
-  render() {
-    const { book, isSelected, onToggleSelect } = this.props;
-    const { addToCart, readPlot } = this.state;
-    const plot = "This is a fake plot text intended for demonstration purposes";
-
-    return (
-      <Card
-        style={{
-          boxSizing: "border-box",
-          height: "400px",
-          border: isSelected ? "5px solid crimson" : "none",
-        }}
-      >
-        <Card.Img
-          variant="top"
-          src={book.img}
-          style={{ height: "200px", objectFit: "cover", cursor: "pointer" }}
+  return (
+    <Card
+      style={{
+        boxSizing: "border-box",
+        height: "400px",
+        border: isSelected ? "5px solid crimson" : "none",
+      }}
+    >
+      <Card.Img
+        variant="top"
+        src={book.img}
+        style={{ height: "200px", objectFit: "cover", cursor: "pointer" }}
+        onClick={() => onToggleSelect(book)}
+      />
+      <Card.Body className="d-flex flex-column justify-content-between">
+        <Card.Title
+          className="book-title"
+          style={{
+            height: "60px",
+            fontSize: "16px",
+            cursor: "pointer",
+            display: readPlot ? "none" : "inline-block",
+          }}
           onClick={() => onToggleSelect(book)}
-        />
-        <Card.Body className="d-flex flex-column justify-content-between">
-          <Card.Title
-            className="book-title"
-            style={{
-              height: "60px",
-              fontSize: "16px",
-              cursor: "pointer",
-              display: readPlot ? "none" : "inline-block",
-            }}
-            onClick={() => onToggleSelect(book)}
+        >
+          {book.title}
+        </Card.Title>
+        <Card.Text
+          className="mb-1"
+          style={{ display: readPlot ? "inline-block" : "none" }}
+        >
+          <i>"{plot}"</i>
+        </Card.Text>
+        <Card.Text
+          className="mb-1"
+          style={{ display: readPlot ? "none" : "inline-block" }}
+        >
+          {book.price + "$"}
+        </Card.Text>
+        <div className="text-centered d-flex align-items-center justify-content-center flex-wrap mx-0 mt-3">
+          <Button
+            variant={addToCart ? "danger" : "success"}
+            className="btn-sm mx-1 mb-1"
+            onClick={() => setAddToCart(!addToCart)}
           >
-            {book.title}
-          </Card.Title>
-          <Card.Text
-            className="mb-1"
-            style={{ display: readPlot ? "inline-block" : "none" }}
+            {addToCart ? "Remove" : "Add to cart"}
+          </Button>
+          <Button
+            variant="secondary"
+            className="btn-sm mx-1 mb-1"
+            onClick={() => setReadPlot(!readPlot)}
           >
-            <i>"{plot}"</i>
-          </Card.Text>
-          <Card.Text
-            className="mb-1"
-            style={{ display: readPlot ? "none" : "inline-block" }}
-          >
-            {book.price + "$"}
-          </Card.Text>
-          <div className="text-centered d-flex align-items-center justify-content-center flex-wrap mx-0 mt-3">
-            <Button
-              fluid
-              variant={addToCart ? "danger" : "success"}
-              className="btn-sm mx-1 mb-1"
-              onClick={() => this.setState({ addToCart: !addToCart })}
-            >
-              {addToCart ? "Remove" : "Add to cart"}
-            </Button>
-            <Button
-              fluid
-              variant="secondary"
-              className="btn-sm mx-1 mb-1"
-              onClick={() => this.setState({ readPlot: !readPlot })}
-            >
-              {readPlot ? "Close" : "Read Plot"}
-            </Button>
-          </div>
-        </Card.Body>
-      </Card>
-    );
-  }
-}
+            {readPlot ? "Close" : "Read Plot"}
+          </Button>
+        </div>
+      </Card.Body>
+    </Card>
+  );
+};
 
 const getId = (name) => name.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 

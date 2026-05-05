@@ -18,6 +18,13 @@ function App() {
     setSelectedBook((prev) => (prev?.asin === book.asin ? null : book));
   };
 
+  const handleAddReview = (newReview) => {
+    setSelectedBook((prev) => ({
+      ...prev,
+      reviews: [...prev.reviews, newReview],
+    }));
+  };
+
   return (
     <div className="app bg-dark">
       <header>
@@ -30,7 +37,10 @@ function App() {
           <Grid selectedBook={selectedBook} onToggleSelect={toggleSelect} />
         </div>
         <div style={{ width: "30%" }}>
-          <CommentSection selectedBook={selectedBook} />
+          <CommentSection
+            selectedBook={selectedBook}
+            onAddReview={handleAddReview}
+          />
         </div>
       </main>
       <footer></footer>
