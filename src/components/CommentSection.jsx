@@ -26,8 +26,8 @@ const CommentSection = ({ selectedBook, onAddReview }) => {
   const style = {
     width: isMobile ? "100%" : "25%",
     position: isMobile ? "relative" : "fixed",
-    right: isMobile ? "0" : "30px",
-    top: isMobile ? "0" : scrolled ? "10px" : "100px",
+    right: isMobile ? "0" : "20px",
+    top: isMobile ? "0" : scrolled ? "10px" : "80px",
     bottom: isMobile ? "auto" : "10px",
     backgroundColor: "white",
     transition: "all 0.8s ease",
@@ -36,11 +36,12 @@ const CommentSection = ({ selectedBook, onAddReview }) => {
     overflowY: "auto",
     scrollbarWidth: "none",
     msOverflowStyle: "none",
+    boxShadow: "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
   };
 
   return (
     <div style={style}>
-      <h2 className="text-secondary m-2 text-center">Reviews</h2>
+      <h2 className="text-secondary mx-2 my-4 text-center">Reviews</h2>
       {selectedBook ? (
         <>
           <div className="p-2 mb-5">
@@ -56,7 +57,7 @@ const CommentSection = ({ selectedBook, onAddReview }) => {
             ))}
           </div>
           <div className="p-2">
-            <h3 className="text-secondary m-2 text-center">
+            <h3 className="text-secondary mx-2 my-4 text-center">
               Share your review!
             </h3>
             <SubmitReviewForm onAddReview={onAddReview} />

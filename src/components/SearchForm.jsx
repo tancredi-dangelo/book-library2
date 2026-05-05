@@ -63,13 +63,13 @@ const SearchForm = () => {
   };
 
   return (
-    <div className="bg-dark py-4 mx-4 my-3 rounded-3 d-flex flex-column">
-      <h2 className="text-white mb-3">Browse by title</h2>
+    <div
+      className="bg-white text-black p-4 mx-3 mt-5 rounded-3 shadow d-flex flex-column"
+      style={{ width: "100%", margin: "0" }}
+    >
+      <h2 className="text-black mb-3">Browse by title</h2>
 
-      <div
-        className="search-box"
-        style={{ position: "relative", width: "50%" }}
-      >
+      <div className="search-box" style={{ position: "relative" }}>
         <Form className="d-flex flex-column flex-sm-row">
           <Dropdown>
             <Dropdown.Toggle

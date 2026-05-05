@@ -26,17 +26,17 @@ function App() {
   };
 
   return (
-    <div className="app bg-dark">
+    <div className="app bg-white">
       <header>
         <MainNavbar />
       </header>
       <main className="d-flex">
-        <div style={{ width: "70%" }}>
+        <div style={{ width: "70%", margin: "auto" }}>
           <WelcomeAlert />
           <SearchForm />
           <Grid selectedBook={selectedBook} onToggleSelect={toggleSelect} />
         </div>
-        <div style={{ width: "30%" }}>
+        <div style={{ width: "30%", marginLeft: "auto" }}>
           <CommentSection
             selectedBook={selectedBook}
             onAddReview={handleAddReview}

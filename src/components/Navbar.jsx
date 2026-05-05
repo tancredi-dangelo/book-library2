@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 
 const MainNavbar = function () {
   return (
-    <Navbar bg="black" data-bs-theme="dark" className="m-0" expand="lg">
+    <Navbar bg="light" data-bs-theme="light" className="m-0 shadow" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">EpiLibrary</Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar" />
@@ -16,7 +16,7 @@ const MainNavbar = function () {
             <Dropdown>
               <Dropdown.Toggle
                 variant="black"
-                className="text-light"
+                className="text-secondary"
                 id="dropdown-basic"
               >
                 Browse Genres

@@ -8,7 +8,7 @@ function WelcomeAlert() {
 
   return (
     <Alert
-      className="mx-4 my-5"
+      className="mx-4 my-4"
       variant="success"
       dismissible
       onClose={() => setShow(false)}

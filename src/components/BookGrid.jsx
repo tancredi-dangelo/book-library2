@@ -24,10 +24,12 @@ const BookCard = ({ book, isSelected, onToggleSelect }) => {
 
   return (
     <Card
+      className="rounded-3"
       style={{
         boxSizing: "border-box",
         height: "400px",
         border: isSelected ? "5px solid crimson" : "none",
+        boxShadow: "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
       }}
     >
       <Card.Img
@@ -38,11 +40,12 @@ const BookCard = ({ book, isSelected, onToggleSelect }) => {
       />
       <Card.Body className="d-flex flex-column justify-content-between">
         <Card.Title
-          className="book-title"
+          className="book-title text-black"
           style={{
-            height: "60px",
-            fontSize: "16px",
+            height: "50px",
+            fontSize: "14px",
             cursor: "pointer",
+            color: "black",
             display: readPlot ? "none" : "inline-block",
           }}
           onClick={() => onToggleSelect(book)}
@@ -86,12 +89,15 @@ const getId = (name) => name.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 
 function Grid({ selectedBook, onToggleSelect }) {
   return (
-    <Container className="px-4">
+    <Container
+      className="px-4 bg-white text-black mx-3 border-0 rounded-3 shadow"
+      style={{ width: "100%" }}
+    >
       {genres.map((genre) => (
         <div key={genre.name}>
           <h1
             id={`${getId(genre.name)}-section`}
-            className="text-white mb-4 mt-4"
+            className="text-black mb-4 p-4 mt-5"
           >
             {genre.name}
           </h1>

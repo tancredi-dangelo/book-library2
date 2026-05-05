@@ -29,7 +29,6 @@ function SubmitReviewForm({ selectedBook, onAddReview }) {
   return (
     <Form onSubmit={handleSubmit} className="mb-5">
       <Form.Group className="mb-3 px-2" controlId="formBasicUsername">
-        <Form.Label>Username</Form.Label>
         <Form.Control
           type="text"
           value={username}
@@ -41,7 +40,6 @@ function SubmitReviewForm({ selectedBook, onAddReview }) {
       </Form.Group>
 
       <Form.Group className="mb-3 px-2" controlId="formBasicReview">
-        <Form.Label>Review</Form.Label>
         <Form.Control
           type="text"
           value={review}
@@ -53,12 +51,12 @@ function SubmitReviewForm({ selectedBook, onAddReview }) {
       </Form.Group>
 
       <Form.Group
-        className="mb-3 px-2"
+        className="mb-3 px-2 d-flex align-items-center justify-content-center"
         value={rating}
         controlId="formBasicReview"
       >
-        <Form.Label>Score</Form.Label>
-        <Form.Select>
+        <Form.Label className="m-0">Score</Form.Label>
+        <Form.Select style={{ width: "60px", margin: "0 10px 0 10px" }}>
           {Array.from({ length: 10 }, (_, i) => i + 1).map((num) => (
             <option
               key={num}
@@ -69,11 +67,10 @@ function SubmitReviewForm({ selectedBook, onAddReview }) {
             </option>
           ))}
         </Form.Select>
+        <Button className="px-2 text-center" variant="primary" type="submit">
+          Submit
+        </Button>
       </Form.Group>
-
-      <Button className="mb-3 px-2 text-center" variant="primary" type="submit">
-        Submit
-      </Button>
     </Form>
   );
 }
