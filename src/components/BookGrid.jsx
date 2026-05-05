@@ -18,14 +18,12 @@ const genres = [
 ];
 
 class BookCard extends Component {
-  // ✅ removed isSelected and selectedBook — they come from props now
   state = {
     readPlot: false,
     addToCart: false,
   };
 
   render() {
-    // ✅ isSelected and onToggleSelect come from props, not state
     const { book, isSelected, onToggleSelect } = this.props;
     const { addToCart, readPlot } = this.state;
     const plot = "This is a fake plot text intended for demonstration purposes";
@@ -42,7 +40,7 @@ class BookCard extends Component {
           variant="top"
           src={book.img}
           style={{ height: "200px", objectFit: "cover", cursor: "pointer" }}
-          onClick={() => onToggleSelect(book)} // ✅ calls App's updater
+          onClick={() => onToggleSelect(book)}
         />
         <Card.Body className="d-flex flex-column justify-content-between">
           <Card.Title
@@ -53,7 +51,7 @@ class BookCard extends Component {
               cursor: "pointer",
               display: readPlot ? "none" : "inline-block",
             }}
-            onClick={() => onToggleSelect(book)} // ✅ calls App's updater
+            onClick={() => onToggleSelect(book)}
           >
             {book.title}
           </Card.Title>
